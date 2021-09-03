@@ -9,8 +9,6 @@ export default function index() {
     <>
       <Meta />
       <Header />
-    
-      fdfddddddd fffffffffffffff dddddddddddddddddddddddd
     </>
   );
 }
