@@ -15,7 +15,7 @@ const Header = () => {
 							Get feedback for the your landing page
 						</h1>
 						<p className="text-2xl text-transparent bg-clip-text bg-gradient-to-br from-normalBlue to-lightGray">
-							We provide you detailed feedback for your landing page's UI/UX and help you improving your conversion rate to upto 8% 
+							We provide you detailed feedback for your landing page&apos's UI/UX and help you improving your conversion rate to upto 8% 
 						</p>
 						<div className="mt-12">
 							<Button name="Get Started" />
