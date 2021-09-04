@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    /*@apply bg-lightGray;*/
+    @apply bg-lightBlue;
     /*@apply text-white;*/
     @apply font-sans;
   }

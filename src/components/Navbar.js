@@ -12,16 +12,16 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<nav className="flex items-center flex-wrap bg-lightBlue p-3 font-sans shadow-md fixed w-screen">
+			<nav className="z-10 flex items-center flex-wrap bg-lightBlue p-3 font-sans shadow-md fixed w-screen font-sans">
 				<Link href="/">
 					<a className="inline-flex items-center p-2 mr-4 ">
-						<span className="text-xl text-black font-bold uppercase tracking-wide">
-							Bhavesh
+						<span className="text-xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-br from-normalBlue to-lightGray">
+							Website Feedback
 						</span>
 					</a>
 				</Link>
 				<button
-					className=" inline-flex p-3 hover:bg-gray-600 rounded lg:hidden text-black ml-auto hover:text-black outline-none"
+					className=" inline-flex p-3 rounded lg:hidden text-black ml-auto outline-none"
 					onClick={handleClick}
 				>
 					<svg
@@ -61,7 +61,11 @@ export const Navbar = () => {
 						</a>
 						<Link href="/">
 							<div className="mr-2">
-								<Button name="Get Started" />
+								<Link href="/getStarted">
+									<a>
+										<Button name="Get Started" />
+									</a>
+								</Link>
 							</div>
 						</Link>
 					</div>
