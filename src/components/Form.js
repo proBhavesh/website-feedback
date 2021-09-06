@@ -10,7 +10,7 @@ const Form = () => {
 	};
 	return (
 		<>
-			<section className="pt-12 px-4 bg-lightBlue mx-auto h-screen font-sans text-center md:text-left pt-20">
+			<section className="pt-12 px-4 bg-lightBlue mx-auto h-auto font-sans text-center md:text-left pt-20">
 				<div className="grid grid-rows-2 m-auto md:grid-cols-2 grid-rows-none max-w-6xl  pt-24 gap-8">
 					<form
 						action="https://www.formbackend.com/f/0698d758eddc634e"

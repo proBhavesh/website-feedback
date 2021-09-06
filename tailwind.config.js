@@ -10,6 +10,9 @@ module.exports = {
         brightYellow: "#25AD78",
         lightWhite: "#E6E8C9",
       },
+       height: {
+       cl: '37.8rem',
+      },
       fontFamily: {
         plex: "'IBM Plex Sans', monospace",
       },

@@ -3,7 +3,6 @@ import "tailwindcss/tailwind.css";
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
 
-import {Navbar} from "../components/Navbar.js";
 const progress = new ProgressBar({
   size: 3,
   color: "#6C63FB",
@@ -18,7 +17,6 @@ Router.events.on("routeChangeError", progress.finish);
 const MyApp = ({ Component, pageProps }) => {
   return (
     <>
-      <Navbar />
       <Component {...pageProps} />
     </>
   );
